@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="Test" preserve-order="true">
+    <classes>
+    <class name="com.org.Example.myproject.TestSearchAndConnect" />
+    <class name="com.org.Example.myproject.TestCreateRequest" />
+    <class name="com.org.Example.myproject.VerifyRequest" />
+    <class name="com.org.Example.myproject.VerifyTestApproveRequest" />
+    <class name="com.org.Example.myproject.TestApproveRequest" />
+    <class name="com.org.Example.myproject.TestApproveInvitationRequest" />    
+    <class name="com.org.Example.myproject.TestCreateTPGroup" />
+    <class name="com.org.Example.myproject.TestTPGroupAddTPTags" />
+    
+    <class name="com.org.Example.myproject.TestViewTPGroupCAResponder.java" />    
+    <class name="com.org.Example.myproject.TestEditTPGroupCARequestor.java" />      
+    <class name="com.org.Example.myproject.TestDeleteTPGroupCARequestor" />
+    <class name="com.org.Example.myproject.TestApproveRequest" />
+    <class name="com.org.Example.myproject.TestApproveRequest" />
+    <class name="com.org.Example.myproject.US10319" />
+    <class name="com.org.Example.myproject.US10320" />
+    <class name="com.org.Example.myproject.US10321" />
+    <class name="com.org.Example.myproject.US10322" />
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
